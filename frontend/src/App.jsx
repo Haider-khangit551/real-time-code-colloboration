@@ -4,7 +4,7 @@ import io from "socket.io-client"
 import { useState } from 'react'
 import Editor from '@monaco-editor/react'
 
-const socket = io("http://localhost:8080")
+const socket = io("https://real-time-code-colloboration.onrender.com")
 
 const App = () => {
 
